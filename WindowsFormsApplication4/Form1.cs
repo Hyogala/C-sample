@@ -45,7 +45,8 @@ namespace WindowsFormsApplication4
             // 取得したHTML内からタイトルを取得します。
             string title = scr.GetTitle(html);
             txtTitle2.Text = title;
-
+            //komentoo
+            Console.Write ("a");
             // 「取得中」の文言を不可視にします。
             lblView2.Visible = false;
         }
